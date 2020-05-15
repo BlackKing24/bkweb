@@ -1,0 +1,51 @@
+body
+{
+	margin: auto;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #707070;
+	font-family: consolas;
+	min-height: 15vh;
+
+}
+
+a
+{
+	color: #000000;
+	background: #480101;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 5px 20px;
+	text-decoration: none;
+	overflow: hidden;
+	margin: auto;
+	letter-spacing: 2px;
+	font-size: 29px;
+	display: inline-block;
+	position: relative;
+	transition: 0.2s;
+	position: relative;
+	border-radius: 1px;
+
+}
+
+a:hover
+{
+	color: #000000;
+	background: #cb0000;
+	box-shadow: 0 0 10px #cb0000, 0 0 40px #cb0000, 0 0 80px #cb0000;
+	transition-delay: 0.1s;
+}
+
+h3
+{
+	color: #29985a
+
+}
+
+header
+{
+	max-width: 1000px;
+}
